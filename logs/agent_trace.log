@@ -1,0 +1,147 @@
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+[ERROR] Model qwen2.5:7b not found: Error code: 404 - {'error': {'message': "model 'qwen2.5:7b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Model qwen2.5:7b not found: Error code: 404 - {'error': {'message': "model 'qwen2.5:7b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+[ERROR] Model qwen2.5:7b not found: Error code: 404 - {'error': {'message': "model 'qwen2.5:7b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Model qwen2.5:7b not found: Error code: 404 - {'error': {'message': "model 'qwen2.5:7b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 404 Not Found"
+[ERROR] Model qwen2.5:7b not found: Error code: 404 - {'error': {'message': "model 'qwen2.5:7b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Model qwen2.5:7b not found: Error code: 404 - {'error': {'message': "model 'qwen2.5:7b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[INFO] OpenAI: Successfully validated tool 'task_router_tool'
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 400 Bad Request"
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Error code: 400 - {'error': {'message': 'registry.ollama.ai/library/llama3:8b does not support tools', 'type': 'invalid_request_error', 'param': None, 'code': None}}
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 58, 'total_tokens': 190}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 522, 'completion_tokens': 442, 'total_tokens': 964}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 1520, 'completion_tokens': 172, 'total_tokens': 1692}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 808, 'completion_tokens': 328, 'total_tokens': 1136}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 84, 'total_tokens': 216}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 513, 'completion_tokens': 364, 'total_tokens': 877}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 1038, 'completion_tokens': 601, 'total_tokens': 1639}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 823, 'completion_tokens': 371, 'total_tokens': 1194}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 38, 'total_tokens': 170}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 467, 'completion_tokens': 351, 'total_tokens': 818}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 1342, 'completion_tokens': 185, 'total_tokens': 1527}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 712, 'completion_tokens': 453, 'total_tokens': 1165}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 68, 'total_tokens': 200}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 434, 'completion_tokens': 326, 'total_tokens': 760}
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 46, 'total_tokens': 178}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 411, 'completion_tokens': 265, 'total_tokens': 676}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 821, 'completion_tokens': 490, 'total_tokens': 1311}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 938, 'completion_tokens': 407, 'total_tokens': 1345}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 61, 'total_tokens': 193}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 427, 'completion_tokens': 337, 'total_tokens': 764}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 908, 'completion_tokens': 534, 'total_tokens': 1442}
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 1070, 'completion_tokens': 267, 'total_tokens': 1337}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[ERROR] HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NameResolutionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to resolve 'telemetry.crewai.com' ([Errno 11001] getaddrinfo failed)"))
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 132, 'completion_tokens': 29, 'total_tokens': 161}
+[INFO] Retrying request to /chat/completions in 0.459504 seconds
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 394, 'completion_tokens': 45, 'total_tokens': 439}
+[INFO] Retrying request to /chat/completions in 0.449904 seconds
+[INFO] Retrying request to /chat/completions in 0.871449 seconds
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 583, 'completion_tokens': 219, 'total_tokens': 802}
+[ERROR] HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NameResolutionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to resolve 'telemetry.crewai.com' ([Errno 11001] getaddrinfo failed)"))
+[INFO] HTTP Request: POST http://localhost:11434/v1/chat/completions "HTTP/1.1 200 OK"
+[INFO] OpenAI API usage: {'prompt_tokens': 429, 'completion_tokens': 273, 'total_tokens': 702}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[ERROR] HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NameResolutionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to resolve 'telemetry.crewai.com' ([Errno 11001] getaddrinfo failed)"))

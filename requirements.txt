@@ -1,0 +1,9 @@
+crewai
+langchain
+langchain-community
+ollama
+pypdf
+python-dotenv
+rich
+streamlit
+pytest
