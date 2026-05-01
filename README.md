@@ -2,57 +2,67 @@
 
 ## Project Overview
 
-The **Local Multi-Agent Research Paper Analyzer** is a locally running AI-powered system designed to analyze research paper PDFs and generate structured academic summary reports. The system uses a multi-agent architecture to divide the research analysis workflow into specialized tasks such as PDF reading, insight extraction, and report generation.
+The **Local Multi-Agent Research Paper Analyzer** is a locally running AI-powered system designed to analyze research paper PDFs and generate structured academic summary reports.
 
-This project does **not use paid cloud APIs**. All language processing is handled locally using **Ollama** models.
+The system uses a **multi-agent architecture** where each agent handles a specific task such as PDF reading, insight extraction, and report generation.
+
+⚡ **No paid APIs are used** — all processing runs locally using **Ollama models**.
 
 ---
 
 ## Problem Statement
 
-Students and researchers often spend a significant amount of time reading lengthy research papers and identifying important information such as objectives, methodology, findings, limitations, research gaps, and future work.
+Analyzing long research papers manually is time-consuming and inefficient. Extracting key elements such as:
 
-This system simplifies that process by automatically extracting and analyzing research paper content using a team of specialized local AI agents.
+- Objectives  
+- Methodology  
+- Findings  
+- Limitations  
+- Research gaps  
+- Future work  
+
+requires significant effort.
+
+This system automates that entire workflow using intelligent local AI agents.
 
 ---
 
 ## Key Features
 
-- Upload and analyze research paper PDFs
-- Extract text from PDF documents
-- Identify research objectives, methodology, findings, limitations, research gaps, and future work
-- Generate a structured academic summary report
-- Save the final output as a Markdown report
-- Run completely locally using Ollama
-- Includes CLI, Streamlit frontend, logging, and test support
+- 📄 Upload and analyze research paper PDFs  
+- 🤖 Multi-agent AI architecture (CrewAI)  
+- 🧠 Automatic extraction of research insights  
+- 📝 Generates structured academic reports  
+- 💻 Runs fully locally using Ollama  
+- 📊 CLI + Streamlit UI support  
+- 🧪 Unit testing included  
+- 📁 Saves output as Markdown report  
 
 ---
 
 ## Technologies Used
 
-- **Python**
-- **CrewAI**
-- **Ollama**
-- **PyPDF2**
-- **Streamlit**
-- **Pytest**
-- **Markdown**
+- Python  
+- CrewAI  
+- Ollama  
+- PyPDF2  
+- Streamlit  
+- Pytest  
 
 ---
 
 ## System Architecture
 
-The system uses **CrewAI** to coordinate multiple agents. Each agent is responsible for a specific part of the research paper analysis workflow.
+This project uses **CrewAI** to coordinate multiple agents.
 
 ### Workflow
 
-1. The user uploads or provides a research paper PDF.
-2. The Coordinator Agent validates the request and checks the file format.
-3. The Paper Reader Agent extracts and cleans text from the PDF.
-4. The Research Insight Agent analyzes the extracted text.
-5. The Report Generator Agent creates a structured academic report.
-6. The final report is saved in the `outputs/` directory.
-7. The user can view or download the generated report.
+1. User uploads a research paper PDF  
+2. Coordinator Agent validates request  
+3. Paper Reader Agent extracts text  
+4. Research Insight Agent analyzes content  
+5. Report Generator Agent creates report  
+6. Report saved in `outputs/`  
 
 ---
 
@@ -62,16 +72,54 @@ The system uses **CrewAI** to coordinate multiple agents. Each agent is responsi
 User Input / PDF Upload
         ↓
 Coordinator Agent
-(validate request and route task)
+(validate + route task)
         ↓
 Paper Reader Agent
-(extract and clean PDF text)
+(extract text)
         ↓
 Research Insight Agent
-(analyze research content)
+(analyze content)
         ↓
 Report Generator Agent
-(generate final report)
+(generate report)
         ↓
-Final Report
+Final Output
 (outputs/final_report.md)
+
+project/
+│
+├── agents/
+├── tools/
+├── inputs/
+├── outputs/
+├── logs/
+├── tests/
+├── app.py
+├── main.py
+├── requirements.txt
+└── README.md
+
+git clone https://github.com/your-username/local-multi-agent-research-paper-analyzer.git
+cd local-multi-agent-research-paper-analyzer
+
+Create Virtual Environment
+python -m venv venv
+
+Activate Environment
+venv\Scripts\activate
+
+Install Dependencies
+pip install -r requirements.txt
+
+Install and Run Ollama
+https://ollama.com/
+
+ollama run llama3:8b
+ollama run phi3
+ollama run qwen2.5:7b
+
+Run the Project (CLI)
+python main.py
+
+Run the Frontend
+streamlit run app.py
