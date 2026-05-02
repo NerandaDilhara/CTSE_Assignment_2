@@ -145,3 +145,166 @@
 [INFO] Report Generator Agent saved final report
 [INFO] Workflow completed successfully
 [ERROR] HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by NameResolutionError("HTTPSConnection(host='telemetry.crewai.com', port=4319): Failed to resolve 'telemetry.crewai.com' ([Errno 11001] getaddrinfo failed)"))
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] Retrying request to /chat/completions in 0.419466 seconds
+[INFO] Retrying request to /chat/completions in 0.837894 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.471369 seconds
+[INFO] Retrying request to /chat/completions in 0.856512 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.422075 seconds
+[INFO] Retrying request to /chat/completions in 0.873195 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] Retrying request to /chat/completions in 0.478507 seconds
+[INFO] Retrying request to /chat/completions in 0.759398 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.412737 seconds
+[INFO] Retrying request to /chat/completions in 0.966100 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.413397 seconds
+[INFO] Retrying request to /chat/completions in 0.801176 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] Retrying request to /chat/completions in 0.432317 seconds
+[INFO] Retrying request to /chat/completions in 0.897180 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.423005 seconds
+[INFO] Retrying request to /chat/completions in 0.892190 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.486391 seconds
+[INFO] Retrying request to /chat/completions in 0.915353 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] Retrying request to /chat/completions in 0.409767 seconds
+[INFO] Retrying request to /chat/completions in 0.780244 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.387026 seconds
+[INFO] Retrying request to /chat/completions in 0.837851 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.467621 seconds
+[INFO] Retrying request to /chat/completions in 0.908227 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[ERROR] Model llama3:8b not found: Error code: 404 - {'error': {'message': "model 'llama3:8b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Model llama3:8b not found: Error code: 404 - {'error': {'message': "model 'llama3:8b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] Model llama3:8b not found: Error code: 404 - {'error': {'message': "model 'llama3:8b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Model llama3:8b not found: Error code: 404 - {'error': {'message': "model 'llama3:8b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] Model llama3:8b not found: Error code: 404 - {'error': {'message': "model 'llama3:8b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[ERROR] OpenAI API call failed: Model llama3:8b not found: Error code: 404 - {'error': {'message': "model 'llama3:8b' not found", 'type': 'not_found_error', 'param': None, 'code': None}}
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 164, 'total_tokens': 306}
+[INFO] OpenAI API usage: {'prompt_tokens': 621, 'completion_tokens': 349, 'total_tokens': 970}
+[INFO] OpenAI API usage: {'prompt_tokens': 1544, 'completion_tokens': 573, 'total_tokens': 2117}
+[INFO] OpenAI API usage: {'prompt_tokens': 1232, 'completion_tokens': 641, 'total_tokens': 1873}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 190, 'total_tokens': 332}
+[INFO] OpenAI API usage: {'prompt_tokens': 731, 'completion_tokens': 419, 'total_tokens': 1150}
+[INFO] OpenAI API usage: {'prompt_tokens': 1645, 'completion_tokens': 222, 'total_tokens': 1867}
+[INFO] OpenAI API usage: {'prompt_tokens': 975, 'completion_tokens': 864, 'total_tokens': 1839}
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 274, 'total_tokens': 416}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 748, 'completion_tokens': 320, 'total_tokens': 1068}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1714, 'completion_tokens': 487, 'total_tokens': 2201}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1229, 'completion_tokens': 294, 'total_tokens': 1523}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 153, 'total_tokens': 295}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 617, 'completion_tokens': 342, 'total_tokens': 959}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1477, 'completion_tokens': 451, 'total_tokens': 1928}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1093, 'completion_tokens': 712, 'total_tokens': 1805}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 232, 'total_tokens': 374}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 683, 'completion_tokens': 331, 'total_tokens': 1014}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1487, 'completion_tokens': 294, 'total_tokens': 1781}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1003, 'completion_tokens': 1125, 'total_tokens': 2128}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Using config path: /Users/nerandadilhara/.config/crewai/settings.json

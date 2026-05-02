@@ -57,8 +57,8 @@ def safe_run_tool(tool_obj, arg):
         return tool_obj(arg)
 
 def run_workflow(pdf_path: str):
-    # Fixing LLM integration to use CrewAI's string-based approach
-    llm = "ollama/llama3:8b"
+    from crewai import LLM
+    llm = LLM(model="ollama/llama3.2:latest", base_url="http://localhost:11434")
     
     # Initialize Tools
     task_router = get_task_router_tool(shared_state)
@@ -117,7 +117,35 @@ def run_workflow(pdf_path: str):
     
     # Output is now ready, update global state
     shared_state['final_report'] = final_output
-    shared_state['paper_title'] = "Generated Report"  # Simplified injection
+    
+    # Extract insights from task3
+    try:
+        import json, re
+        task3_str = task3.output.raw if hasattr(task3.output, 'raw') else str(task3.output)
+        json_match = re.search(r'```json\n(.*?)\n```', task3_str, re.DOTALL)
+        
+        if json_match:
+            data = json.loads(json_match.group(1))
+        else:
+            # Fallback if no markdown code block is used
+            # Try to find the first '{' and last '}'
+            start = task3_str.find('{')
+            end = task3_str.rfind('}')
+            if start != -1 and end != -1:
+                data = json.loads(task3_str[start:end+1])
+            else:
+                data = json.loads(task3_str)
+            
+        shared_state['paper_title'] = data.get('paper_title', 'Generated Report')
+        shared_state['objectives'] = data.get('objectives', [])
+        shared_state['methodology'] = data.get('methodology', 'Not available')
+        shared_state['findings'] = data.get('findings', [])
+        shared_state['limitations'] = data.get('limitations', [])
+        shared_state['research_gaps'] = data.get('research_gaps', [])
+        shared_state['future_work'] = data.get('future_work', [])
+    except Exception as e:
+        logging.error(f"Could not parse task3 JSON: {e}")
+        shared_state['paper_title'] = "Generated Report"  # Fallback
     
     # --- PHASE 3: MANUALLY EXECUTE POST-AGENT TOOLS ---
     logging.info("Executing Post-Agent Tools Manually")
@@ -125,16 +153,3 @@ def run_workflow(pdf_path: str):
     
     return shared_state
 
-if __name__ == "__main__":
-    print("Local Multi-Agent Research Paper Analyzer")
-    pdf_path = input("Enter the path to your PDF: ")
-    shared_state["user_query"] = "Analyze this research paper"
-    
-    final_state = run_workflow(pdf_path)
-    
-    print("\n--- Final Report Path ---")
-    print(final_state.get('output_path'))
-    
-    print("\n--- Report Preview ---")
-    preview = final_state.get('final_report', '')
-    print(preview[:500] + "\n...")
