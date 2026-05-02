@@ -308,3 +308,57 @@
 [INFO] Report Generator Agent saved final report
 [INFO] Workflow completed successfully
 [INFO] Using config path: /Users/nerandadilhara/.config/crewai/settings.json
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[WARNING] Error initializing trace batch: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032). Continuing without tracing.
+[INFO] Retrying request to /chat/completions in 0.409130 seconds
+[INFO] Retrying request to /chat/completions in 0.969973 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.464815 seconds
+[INFO] Retrying request to /chat/completions in 0.888923 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[INFO] Retrying request to /chat/completions in 0.495435 seconds
+[INFO] Retrying request to /chat/completions in 0.869874 seconds
+[ERROR] Failed to connect to OpenAI API: Connection error.
+[ERROR] OpenAI API call failed: Failed to connect to OpenAI API: Connection error.
+[ERROR] HTTPSConnectionPool(host='telemetry.crewai.com', port=4319): Max retries exceeded with url: /v1/traces (Caused by ConnectTimeoutError(<urllib3.connection.HTTPSConnection object at 0x16ae13d90>, 'Connection to telemetry.crewai.com timed out. (connect timeout=30)'))
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[WARNING] Error initializing trace batch: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1032). Continuing without tracing.
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 127, 'total_tokens': 269}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 592, 'completion_tokens': 341, 'total_tokens': 933}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1450, 'completion_tokens': 186, 'total_tokens': 1636}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 801, 'completion_tokens': 838, 'total_tokens': 1639}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Executing Pre-Agent Tools Manually
+[INFO] Coordinator Agent started
+[INFO] File validation successful
+[INFO] Routing task to Paper Reader Agent
+[INFO] Paper Reader Agent extracted text from PDF
+[INFO] OpenAI API usage: {'prompt_tokens': 142, 'completion_tokens': 207, 'total_tokens': 349}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 671, 'completion_tokens': 324, 'total_tokens': 995}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 1513, 'completion_tokens': 168, 'total_tokens': 1681}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] OpenAI API usage: {'prompt_tokens': 846, 'completion_tokens': 915, 'total_tokens': 1761}
+[ERROR] Failed to show logs for agent execution event: 
+[INFO] Executing Post-Agent Tools Manually
+[INFO] Report Generator Agent saved final report
+[INFO] Workflow completed successfully
+[INFO] Using config path: /Users/nerandadilhara/.config/crewai/settings.json
+[ERROR] ❌ Error finalizing trace batch: 
